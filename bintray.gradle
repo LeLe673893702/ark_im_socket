@@ -1,8 +1,8 @@
 Properties properties = new Properties()
-properties.load(new FileInputStream("./bintray.properties"))
+properties.load(new FileInputStream("E:\\AndroidCode\\ark_im_socket\\bintray.gradle"))
 
-def gitUrl = 'https://github.com/LeLe673893702/mvpscaffold.git'   // Git仓库的url
-def siteUrl = 'https://github.com/LeLe673893702/mvpscaffold'   // 项目的主页
+def gitUrl = 'https://gitee.com/newlerLiu/ark_im_socket.git'   // Git仓库的url
+def siteUrl = 'https://gitee.com/newlerLiu/ark_im_socket'   // 项目的主页
 
 version = properties.getProperty("version")
 group = "com.newler"
@@ -108,4 +108,4 @@ artifacts {
     archives sourcesJar
 }
 
-// gradlew :scaffold:bintrayUpload --no-configure-on-demand --no-parallel
+// gradlew :im_socket_client:bintrayUpload --no-configure-on-demand --no-parallel
