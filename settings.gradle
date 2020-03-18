@@ -1,0 +1,2 @@
+include ':app', ':im_socket_client'
+rootProject.name='ark_im_socket'
