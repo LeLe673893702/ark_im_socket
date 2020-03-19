@@ -1,5 +1,5 @@
 Properties properties = new Properties()
-properties.load(new FileInputStream("E:\\AndroidCode\\ark_im_socket\\bintray.gradle"))
+properties.load(new FileInputStream("./bintray.properties"))
 
 def gitUrl = 'https://gitee.com/newlerLiu/ark_im_socket.git'   // Git仓库的url
 def siteUrl = 'https://gitee.com/newlerLiu/ark_im_socket'   // 项目的主页
